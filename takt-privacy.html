@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Takt Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f7f5;
+      --card: rgba(255, 255, 255, 0.82);
+      --text: #111111;
+      --muted: #666666;
+      --line: rgba(17, 17, 17, 0.08);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f0f10;
+        --card: rgba(24, 24, 26, 0.88);
+        --text: #f4f4f2;
+        --muted: #a2a2a6;
+        --line: rgba(255, 255, 255, 0.1);
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+      background:
+        radial-gradient(circle at top right, rgba(255, 176, 200, 0.16), transparent 30%),
+        radial-gradient(circle at bottom left, rgba(120, 172, 255, 0.16), transparent 30%),
+        var(--bg);
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px 16px;
+    }
+
+    .card {
+      width: min(760px, 100%);
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      padding: 36px 28px;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      box-shadow: 0 16px 50px rgba(0, 0, 0, 0.08);
+    }
+
+    .eyebrow {
+      margin: 0 0 12px;
+      font-size: 13px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(30px, 5vw, 50px);
+      font-weight: 650;
+      letter-spacing: -0.04em;
+    }
+
+    .lead {
+      margin: 18px 0 0;
+      font-size: 18px;
+      line-height: 1.7;
+      color: var(--muted);
+    }
+
+    .section {
+      margin-top: 30px;
+      padding-top: 24px;
+      border-top: 1px solid var(--line);
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    p, li {
+      font-size: 16px;
+      line-height: 1.75;
+      color: var(--text);
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .footer {
+      margin-top: 28px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <p class="eyebrow">Takt</p>
+    <h1>Privacy Policy</h1>
+    <p class="lead">
+      Takt respects your privacy. This app does not collect, store, or share personal information.
+    </p>
+
+    <section class="section">
+      <h2>Data Collection</h2>
+      <p>
+        Takt does not collect personal data, account information, or usage analytics.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Local Storage</h2>
+      <p>
+        App settings such as tempo preferences or interface choices may be stored locally on your device only.
+        This information is not sent to any external server.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Third-Party Services</h2>
+      <p>
+        Takt does not use third-party advertising SDKs, tracking tools, or external analytics services.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Contact</h2>
+      <p>
+        If you have any questions about this Privacy Policy, contact:
+        <a href="mailto:your@email.com">your@email.com</a>
+      </p>
+      <p class="muted">
+        Replace this email address with your own before publishing.
+      </p>
+    </section>
+
+    <p class="footer">Last updated: April 2026</p>
+  </main>
+</body>
+</html>
